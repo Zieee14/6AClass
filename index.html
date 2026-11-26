@@ -287,12 +287,9 @@
 
 .galeri {
     font-size: 75px;
-    font-family: Arial, sans-serif;
-    font-weight: 900;
-    text-align: center;
+    font-family: arial, bold;
     margin: 70px auto;
     color: white;
-    text-shadow: 0 0 10px cyan;
     
 }
 
@@ -363,84 +360,6 @@
     .gallery-container {
         grid-template-columns: 1fr;
     }
-}
-
-/* CREDIT SECTION */
-.credit-section {
-    margin: 100px auto 50px;
-    padding: 50px 20px;
-    text-align: center;
-    background: linear-gradient(180deg, #000818, #061735);
-    border-top: 1px solid rgba(0,255,255,0.2);
-}
-
-.credit-title {
-    color: white;
-    font-size: 55px;
-    font-weight: 900;
-    text-shadow: 0 0 15px cyan;
-    margin-bottom: 15px;
-}
-
-.credit-desc {
-    color: #a8c5ed;
-    font-size: 16px;
-    margin-bottom: 35px;
-}
-
-.credit-card {
-    max-width: 500px;
-    margin: auto;
-    padding: 30px;
-    background: #0c1c40;
-    border: 1px solid #1e3a70;
-    border-radius: 20px;
-    transition: 0.3s ease;
-}
-
-.credit-card:hover {
-    transform: translateY(-5px);
-    border-color: cyan;
-    box-shadow: 0 0 20px rgba(0,255,255,0.2);
-}
-
-.credit-name {
-    color: cyan;
-    font-size: 35px;
-    font-weight: 900;
-    margin: 10px;
-    text-shadow: 0 0 10px cyan;
-}
-
-.credit-info {
-    color: #d1d5db;
-    line-height: 1.9;
-    font-size: 15px;
-}
-
-.donate-btn {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 13px 28px;
-    background: cyan;
-    color: #00121d;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.donate-btn:hover {
-    background: white;
-    color: #008bba;
-    box-shadow: 0 0 20px cyan;
-    transform: scale(1.05);
-}
-
-.credit-footer {
-    margin-top: 45px;
-    color: #7186a8;
-    font-size: 13px;
 }
 
     </style>
@@ -700,59 +619,6 @@ document.addEventListener("keydown", function(event) {
     if (event.key === "Escape") closeGallery();
 });
 </script>
-
-
-<div class="credit" id="credit">
-    Credit
-    <p>
-         
-    </p>
-</div>
-
-<section class="credit-section" id="Credit">
-
-    <h1 class="credit-title">CREDIT</h1>
-
-    <p class="credit-desc">
-        Website ini dibuat untuk mengenang kebersamaan kelas 6A.
-    </p>
-
-    <div class="credit-card">
-
-        <p class="credit-info">WEBSITE CREATED BY</p>
-
-        <h2 class="credit-name">ZIEEE</h2>
-
-        <p class="credit-info">
-            Developer & Designer<br>
-            HTML • CSS • JavaScript<br><br>
-
-            Ide dan desain oleh Zieee.<br>
-            Diketik dengan jari, penuh kreativitas!<br>
-            Dibangun dengan semangat belajar.
-            <br><br>
-
-            Special Thanks To:<br>
-            Seluruh keluarga besar 6A CLASS ❤️
-        </p>
-
-        <a
-            href="https://saweria.co/Zieee14"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="donate-btn">
-            Support aku dongg ❤️
-        </a>
-
-    </div>
-
-    <div class="credit-footer">
-        © 2026 6A CLASS. All Rights Reserved.
-        <br>
-        Made with ♥ by Zieee
-    </div>
-
-</section>
 
 </body>
 </html>
